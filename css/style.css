@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu de navegación */
+
+header{
+    color: white;
+}
+
+header >a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo-menu{
+    background: #00171f;
+}
+
+.logo-menu .menu >a{
+    display: inline-block;
+    padding: 40px 20px;
+}
+
+.logo-menu .menu >a:hover{
+    border-bottom: 4px solid orangered;
+    padding-bottom: 36px;
+}
+/* Animaciones de animate.css */
+img:hover{
+    animation: bounce;
+    animation-duration: 1s;
+}
+
+footer:hover{
+    animation: bounce;
+    animation-duration: 1s;
+    color: orangered;
+}
+
+.nave:hover{
+    animation: rubberBand;
+    animation-duration: 1s;
+}
+
+/* articulo */
+
+.img{
+    height: 200px;
+    background-color: blue;
+    border: solid 1px white;
+}
